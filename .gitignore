@@ -1,0 +1,23 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and outputs
+*.log
+*.txt
+
+# Ignore build artifacts
+*.egg-info/
+dist/
+build/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
